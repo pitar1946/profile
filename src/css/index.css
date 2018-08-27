@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding:0;
+  font-family: sans-serif;
+}
+.navbar-nav .nav-link {
+  cursor: pointer;
+}
+.logo .img{
+  position: absolute;
+  margin-top: 490px;
+  margin-left: 570px;
+  z-index: 100;
+}
+@media only screen and (max-width: 400px) {
+    .logo .img{
+       margin-top: 160px;
+       margin-left: 155px;
+       width: 70px;
+       height: 70px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .carousel img{
+        height: 200px;
+    }
+}
+.first-section{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 400px) {
+ .first-section{
+   margin: 35px 0 10px 0;
+  }
+}
+@media only screen and (max-width: 400px) {
+ .second-section{
+   margin-top: 10px !important;
+   margin-bottom: 10px !important;
+  }
+}
+
+.first-section h1,
+.first-section p{
+  text-align: center;
+}
+
+.bg-image-full{
+  background-image:url('https://unsplash.it/1200/400?image=7');
+  height: 400px;
+  max-width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 400px) {
+    .bg-image-full{
+        height: 200px;
+    }
+}
+.second-section{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.second-section h1,
+.second-section p {
+  text-align: center;
+}
+@media only screen and (max-width: 400px) {
+ .form{
+   margin-top: 10px !important;
+   margin-bottom: 10px !important;
+  }
+}
+.form h1{
+  text-align: center;
+}
+.footer{
+  background-color:	#F0F0F0;
+}
+.footer a{
+  text-decoration: none;
+}
+@media only screen and (max-width: 400px) {
+      .footer {
+        padding-top: 0 !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+      .footer .row {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+      .footer .row h6 {
+        margin-bottom:  10px !important;
+        padding-bottom: 10px !important;
+    }
+}
+.map iframe {
+  width:100%;
+  height:450px;
+  marginHeight: 0;
+  marginWidth: 0;
+  scrolling: 0;
+  frameBorder: 0 !important;
+}
+@media only screen and (max-width: 400px){
+  .map iframe{
+    height: 200px;
+  }
+}
+.image-gallery-slide img{
+  width: 100%;
+  height: 400px;
+}
+@media only screen and (max-width: 400px) {
+    .image-gallery-slide img{
+        height: 200px;
+        margin: 0 !important;
+    }
+}
+.icons{
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 400px) {
+      .test {
+        margin-top: 0 !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+      .test p{
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 400px) {
+      .test h6{
+        margin-top: 5px !important;
+        margin-bottom: 10px !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+       hr{
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+  }
+}
+.scroll-up{
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+  transitionDuration: 0.2s;
+  transitionTimingFunction: linear;
+  transitionDelay: 0s;
+  background-color: white;
+  opacity: 0.5;
+}
