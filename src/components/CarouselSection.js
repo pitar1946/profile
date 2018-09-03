@@ -9,17 +9,17 @@ import {
 
 const items = [
   {
-    src: 'https://picsum.photos/1480/550?image=1',
+    src: 'https://picsum.photos/1580/550?image=1',
     altText: 'Slide 1',
     caption: 'Slide 1'
   },
   {
-    src: 'https://picsum.photos/1480/550?image=3',
+    src: 'https://picsum.photos/1580/550?image=3',
     altText: 'Slide 2',
     caption: 'Slide 2'
   },
   {
-    src: 'https://picsum.photos/1480/550?image=4',
+    src: 'https://picsum.photos/1580/550?image=4',
     altText: 'Slide 3',
     caption: 'Slide 3'
   }
